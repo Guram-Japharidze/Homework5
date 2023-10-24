@@ -29,7 +29,7 @@ header {
 .header_a {
     color: white;
     font-size: 20px;
-    font-family: Nerko One;
+    font-family:'Nerko One', cursive;
     font-weight: 400;
     line-height: 30px;
     letter-spacing: 0.10px;
@@ -45,7 +45,7 @@ header {
 h2 {
     color: #4D4D4D;
     font-size: 48px;
-    font-family: Poppins;
+    font-family: 'Poppins', sans-serif;
     font-weight: 500;
     line-height: 62.40px;
     letter-spacing: 0.24px;
@@ -56,7 +56,7 @@ h2 {
 .main_p2 {
     color: #656565;
     font-size: 20px;
-    font-family: 'Nerko One', cursive;
+    font-family:'Nerko One', cursive;
     font-weight: 400;
     line-height: 30px;
     letter-spacing: 0.10px;
@@ -120,5 +120,37 @@ button {
     line-height: 24px;
     padding: 11px 16px;
     background-color: #2A9D8F;
-    border-color:  #2A9D8F;
+    border-color: #2A9D8F;
+}
+
+/* section2 */
+.section2 {
+    width: 1180px;
+    margin: 200px auto;
+}
+
+.figure1, .figure2 {
+    margin-top: 54px;
+    width: 580px;
+    height: 346px;
+    vertical-align: middle;
+    display: inline-block;
+}
+.figure1 {
+    margin-right: 16px;
+}
+
+.image {
+    width: 580px;
+    height: 278px;
+    margin-bottom: 32px;
+}
+
+.figcaption {
+    color: #535353;
+    font-size: 24px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0.12px;
 }
