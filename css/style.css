@@ -29,7 +29,7 @@ header {
 .header_a {
     color: white;
     font-size: 20px;
-    font-family:'Nerko One', cursive;
+    font-family: 'Nerko One', cursive;
     font-weight: 400;
     line-height: 30px;
     letter-spacing: 0.10px;
@@ -56,7 +56,7 @@ h2 {
 .main_p2 {
     color: #656565;
     font-size: 20px;
-    font-family:'Nerko One', cursive;
+    font-family: 'Nerko One', cursive;
     font-weight: 400;
     line-height: 30px;
     letter-spacing: 0.10px;
@@ -129,13 +129,15 @@ button {
     margin: 200px auto;
 }
 
-.figure1, .figure2 {
+.figure1,
+.figure2 {
     margin-top: 54px;
     width: 580px;
     height: 346px;
     vertical-align: middle;
     display: inline-block;
 }
+
 .figure1 {
     margin-right: 16px;
 }
@@ -153,4 +155,49 @@ button {
     font-weight: 400;
     line-height: 36px;
     letter-spacing: 0.12px;
+}
+
+/* footer */
+footer {
+    background-color: #2A9D8F;
+    padding: 90px 130px;
+    margin: 200px auto 0;
+    width: 1440px;
+}
+
+.footer_logo {
+    width: 98px;
+    height: 98px;
+    vertical-align: top;
+}
+
+.footer_nav {
+    display: inline-block;
+    margin-left: 928px;
+    vertical-align: top;
+}
+
+.footer_li1 {
+    margin-bottom: 21px;
+}
+
+.footer_li2 {
+    margin: 8px 0;
+}
+
+.footer_a1 {
+    color: white;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    line-height: 30px;
+
+}
+
+.footer_a2 {
+    color: white;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    line-height: 27px;
 }
